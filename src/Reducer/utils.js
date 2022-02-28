@@ -1,0 +1,14 @@
+export const LOGIN = '/LOGIN'
+export const HOME = '/HOME'
+export const REGISTRATION = '/REGISTRATION'
+export const REGISTR = "REGISTR"
+export const EMAIL_ER = "EMAIL_ER"
+export const ISAUTH = "ISAUTH"
+export const PASSWORD_ER = "PASSWORD_ER"
+export const NAME_ER = "NAME_ER"
+export const PHONE_ER = "PHONE_ER"
+export const PORC = "/PORC"
+export const WEBSITE_ER = "WEBSITE_ER"
+export const ABOUT_ER = "ABOUT_ER"
+export const REGION_ID_ER = "REGION_ID_ER"
+export const LOADING = "LOADING"

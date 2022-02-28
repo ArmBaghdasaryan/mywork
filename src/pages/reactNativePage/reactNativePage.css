@@ -1,0 +1,106 @@
+.react-native{
+    background-color: #CFCFCF;
+    padding: 10px 40px;
+    position: relative;
+
+}
+
+.react-native h2{
+    font-weight: bold;
+    color: #584B9B;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+}
+.react-native p {
+    width: 100%;
+    max-width: 925px;
+    font-size: 17px;
+    font-family: Arial;
+}
+.react-native h4 {
+    background-color: #584B9B;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.react-native ul li {
+    margin-top: 10px;
+
+}
+.react-native button {
+    margin-top: 20px;
+    color: white;
+    padding:10px 60px;
+    background: #2E45F0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.react-native-1{
+    max-width: 340px;
+    width: 100%;
+}
+.react-native-2{
+    max-width: 600px;
+    width: 100%;
+}
+.react-native-3{
+    max-width: 244px;
+    width: 100%;
+}
+.react-native-4{
+    max-width: 320px;
+    width: 100%;
+}
+.react-native-5{
+    max-width: 190px;
+    width: 100%;
+}
+.react-native-6{
+    max-width: 244px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1200px){
+
+    .react-native h2{
+        font-size: 32px;
+    }
+    .react-native h4 {
+        font-size: 16px;
+        padding: 8px 20px;
+
+    }
+
+    .react-native p {
+        font-size: 16px;
+        width: 80%;
+    }
+
+
+}
+@media screen and (max-width: 958px){
+    .course-photo{
+        display: none;
+    }
+    .react-native h2{
+        font-size: 30px;
+    }
+    .react-native h4 {
+        font-size: 15px;
+        padding: 3px 20px;
+
+    }
+
+    .react-native p {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+}

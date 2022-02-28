@@ -1,0 +1,104 @@
+.react{
+    background-color: #CFCFCF;
+    padding: 10px 40px;
+    position: relative;
+
+}
+
+.react button {
+    margin-top: 20px;
+    color: white;
+    padding:10px 60px;
+    background: #2E45F0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+.react h2{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 39px;
+    color: #584B9B;
+    text-align: center;
+}
+.react h4 {
+    background-color: #584B9B;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: Arial;
+    font-size: 17px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.react ul li {
+    margin-top: 10px;
+
+}
+.react p {
+    width: 100%;
+    max-width: 925px;
+    font-size: 17px;
+    font-family: Arial;
+}
+
+.react-1{
+    max-width: 190px;
+    width: 100%;
+}
+.react-2{
+    max-width: 430px;
+    width: 100%;
+}
+.react-3{
+    max-width: 775px;
+    width: 100%;
+}
+.react-4{
+    max-width: 775px;
+    width: 100%;
+}
+.react-5{
+    max-width: 190px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1200px){
+
+    .react h2{
+        font-size: 32px;
+    }
+    .react h4 {
+        font-size: 16px;
+        padding: 8px 20px;
+
+    }
+
+    .react p {
+        font-size: 16px;
+        width: 80%;
+    }
+
+
+}
+@media screen and (max-width: 958px){
+    .course-photo{
+        display: none;
+    }
+    .react h2{
+        font-size: 30px;
+    }
+    .react h4 {
+        font-size: 15px;
+        padding: 3px 20px;
+
+    }
+
+    .react p {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+}

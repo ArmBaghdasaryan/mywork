@@ -1,0 +1,131 @@
+.phyton{
+    background-color: #CFCFCF;
+    position: relative;
+    padding: 10px 40px;
+
+}
+
+.phyton button {
+    margin-top: 20px;
+    color: white;
+    padding:10px 60px;
+    background: #2E45F0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.phyton h2{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #584B9B;
+    text-align: center;
+}
+.phyton h4 {
+    background-color: #584B9B;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+
+}
+
+.h4-1{
+    max-width: 244px;
+    width: 100%;
+}
+.h4-2{
+    max-width: 379px;
+    width: 100%;
+}
+.h4-3{
+    max-width: 237px;
+    width: 100%;
+}
+.h4-4{
+    max-width: 150px;
+    width: 100%;
+}
+.h4-5{
+    max-width: 180px;
+    width: 100%;
+}
+.h4-6{
+    max-width: 420px;
+    width: 100%;
+}
+.h4-7{
+    max-width: 490px;
+    width: 100%;
+}
+.h4-8{
+    max-width: 130px;
+    width: 100%;
+}
+.h4-9{
+    max-width: 220px;
+    width: 100%;
+}
+
+.phyton ul li {
+    margin-top: 10px;
+
+}
+.course-photo {
+    position: absolute;
+    right: 20px;
+    bottom: 220px;
+   
+}
+.course-photo img {
+    max-width: 290px;
+    width: 100%;
+}
+.phyton p {
+    width: 100%;
+    max-width: 925px;
+    font-size: 17px;
+    font-family: Arial;
+}
+
+@media screen and (max-width: 1200px){
+
+    .phyton h2{
+        font-size: 32px;
+    }
+    .phyton h4 {
+        font-size: 16px;
+        padding: 8px 20px;
+
+    }
+
+    .phyton p {
+        font-size: 16px;
+        width: 80%;
+    }
+
+
+}
+@media screen and (max-width: 958px){
+    .course-photo{
+        display: none;
+    }
+    .phyton h2{
+        font-size: 30px;
+    }
+    .phyton h4 {
+        font-size: 15px;
+        padding: 3px 20px;
+
+    }
+
+    .phyton p {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+}

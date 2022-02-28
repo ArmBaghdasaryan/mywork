@@ -1,0 +1,94 @@
+.footer{
+    background-color: #CFCFCF;
+
+}
+.footer h2{
+font-weight: bold;
+font-size: 34px;
+line-height: 39px;
+color: #584B9B;
+text-align: center;
+}
+
+.fot-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.fot-item ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fot-item ul li{
+    margin-top: 37px;
+    display: flex;
+    align-items: center;
+}
+.fot-item ul li span{
+    margin-left: 26px;
+}
+.fot-icon img {
+    margin-left: 26px;
+}
+.fot-text{
+    background-color: #594B9B;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fot-text p {
+    margin-bottom: 19px;
+    font-size: 17px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 1240px){
+    .fot-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .fot-item ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .fot-item ul li {
+        margin-left: 20px;
+    }
+    .fot-item ul li span{
+        margin-left: 10px;
+    }
+
+}
+@media screen and (max-width: 672px){
+
+    .fot-item ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .fot-item ul li {
+        margin-left: 20px;
+    }
+    .fot-item ul li span{
+        margin-left: 10px;
+    }
+    .fot-photo img{
+        width: 300px;
+    }
+    .fot-text p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 375px){
+
+}

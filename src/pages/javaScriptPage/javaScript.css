@@ -1,0 +1,136 @@
+.java-script{
+    background-color: #CFCFCF;
+    position: relative;
+    padding: 10px 40px;
+
+}
+
+.java-script button {
+    margin-top: 20px;
+    color: white;
+    padding:10px 60px;
+    background: #2E45F0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.java-script h2{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 39px;
+    color: #584B9B;
+    text-align: center;
+}
+.java-script h4 {
+    background-color: #584B9B;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: Arial;
+    font-size: 17px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.java-script ul li {
+    margin-top: 10px;
+}
+.java-script p {
+    width: 100%;
+    max-width: 925px;
+    font-size: 17px;
+    font-family: Arial;
+}
+.java-script-1{
+    max-width: 190px;
+    width: 100%;
+}
+.java-script-2{
+    max-width: 190px;
+    width: 100%;
+}
+.java-script-3{
+    max-width: 240px;
+    width: 100%;
+}
+.java-script-4{
+    max-width: 210px;
+    width: 100%;
+}
+.java-script-5{
+    max-width: 240px;
+    width: 100%;
+}
+.java-script-6{
+    max-width: 190px;
+    width: 100%;
+}
+.java-script-7{
+    max-width: 210px;
+    width: 100%;
+}
+.java-script-8{
+    max-width: 190px;
+    width: 100%;
+}
+.java-script-9{
+    max-width: 240px;
+    width: 100%;
+}
+
+@media screen and (max-width:953px){
+    .java-script h2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .java-script h4 {
+        padding: 5px 10px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+   
+    .java-script p {
+        max-width: 425px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+}
+
+
+@media screen and (max-width:654px){
+    .java-script{
+        z-index: 5;
+    }
+    .java-script h2{
+        font-size: 27px;
+    }
+    
+   
+    .java-script p {
+        max-width: 225px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .course-photo{
+        z-index: -1;
+    }
+    h3{
+        font-size: 17px;
+        font-weight: bold;
+    }
+   
+}
+@media screen and (max-width:438px){
+    .course-photo{
+       display: none;
+    }
+    .java-script h4 {
+        padding: 2px 12px;
+    }
+    .java-script h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 15px;
+        font-weight: bold;
+    }
+}

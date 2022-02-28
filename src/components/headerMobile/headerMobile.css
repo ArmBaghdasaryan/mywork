@@ -1,0 +1,46 @@
+.burg-mob{
+    cursor: pointer;
+}
+.hed-mob{
+    display: none;
+}
+
+.burg-mob div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    background-color: #594B9B;
+}
+.mob-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-mob ul li {
+    margin-top: 20px;
+}
+.list-none {
+    display: none;
+}
+.list-mob {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 955px) {
+    .hed-mob{
+        display: block;
+    }
+
+    li a{
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: bold;
+        color: #333;
+        text-decoration: underline;
+    }
+    li a:hover{
+        color:black ;
+    }
+}
+

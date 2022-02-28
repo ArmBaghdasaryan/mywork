@@ -1,0 +1,65 @@
+.sec2-component {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 79%;
+}
+.sec2-component-item{
+    cursor: pointer;
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 0px #2E45F0;
+    border-bottom: #2E45F0;
+    border-right: #2E45F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.sec2-component-item h5{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #584B9B;
+    margin-top: 34px;
+
+}
+.sec2-component-item p{
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    width: 80%;
+    margin-bottom: 38px;
+
+}
+.d-flex{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+
+@media screen and (max-width: 1240px){
+    .sec2-component-item h5{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 776px){
+    .sec2-component-item h5{
+        font-size: 18px;
+    }
+    .sec2-component-item p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 375px){
+    .sec2-component-item h5{
+        font-size: 16px;
+    }
+}

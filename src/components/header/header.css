@@ -1,0 +1,40 @@
+
+.header{
+    background-color:#333;
+   
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+
+li a{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #978e8e;
+}
+li a:hover{
+    color: white;
+}
+.nav-button a{
+    color: white;
+    padding:10px 50px;
+    background: #2E45F0;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 955px) {
+    .header{
+        display: none;
+    }
+
+
+}
+
+
+

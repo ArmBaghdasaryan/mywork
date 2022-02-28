@@ -1,0 +1,35 @@
+.PhoneInputCountry {
+    padding: 10px;
+    border: 1px solid #AEADAD;
+    border-radius: 5px;
+    padding: 12px 15px;
+}
+.PhoneInputInput{
+    margin-left: 32px;
+}
+.count-form {
+    max-width: 600px;
+    width: 100%;
+}
+
+.count-form-input{
+    margin-top: 37px;
+
+}
+.count-form-input input {
+    /*max-width: 900px;*/
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #AEADAD;
+    border-radius: 5px;
+
+}
+
+.file-send6 button{
+    margin-top: 20px;
+    color: white;
+    padding:10px 60px;
+    background: #2E45F0;
+    border-radius: 10px;
+    border: none;
+}

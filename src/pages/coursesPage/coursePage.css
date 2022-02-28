@@ -1,0 +1,16 @@
+.course-sec{
+    padding:2px 40px;
+    background-color: #CFCFCF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.course-sec h2 {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 39px;
+    color: #584B9B;
+    margin-bottom: 52px;
+}
